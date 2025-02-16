@@ -10,7 +10,9 @@ export function Card() {
     <div {...stylex.props(styles.container, isDark ? styles.darkCard : styles.lightCard)}>
       <h2 {...stylex.props(styles.title)}>Title</h2>
       <p {...stylex.props(styles.description)}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <button {...stylex.props(buttonStyles.base, isDark ? buttonStyles.dark : buttonStyles.light)} type='button' onClick={() => setIsDark(current => !current)}>Change Dark</button>
+      <button {...stylex.props(buttonStyles.base, isDark ? buttonStyles.dark : buttonStyles.light)} type='button' onClick={() => setIsDark(current => !current)}>
+        {isDark ? 'Change Light' : 'Change Dark'}
+      </button>
     </div>
   )
 }

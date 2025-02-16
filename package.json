@@ -20,7 +20,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
     "@stylexjs/eslint-plugin": "^0.10.1",
-    "@stylexswc/nextjs-plugin": "0.6.6-rc.1",
+    "@stylexswc/nextjs-plugin": "0.6.6",
     "@stylexswc/rs-compiler": "^0.6.5",
     "@types/eslint__eslintrc": "^2.1.2",
     "@types/node": "^20",

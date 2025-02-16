@@ -31,8 +31,8 @@ importers:
         specifier: ^0.10.1
         version: 0.10.1
       '@stylexswc/nextjs-plugin':
-        specifier: 0.6.6-rc.1
-        version: 0.6.6-rc.1(next@15.1.7(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 0.6.6
+        version: 0.6.6(next@15.1.7(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@stylexswc/rs-compiler':
         specifier: ^0.6.5
         version: 0.6.5
@@ -409,8 +409,8 @@ packages:
   '@stylexjs/stylex@0.10.1':
     resolution: {integrity: sha512-J2LUqD9Z1Vg9rBpvAcluBR7aXP0RbI4FDcjoJoNwPQT1NGiBa0VaoDim7mLQYvivOV0gWbeBnW23Pi6ylhxaMQ==}
 
-  '@stylexswc/nextjs-plugin@0.6.6-rc.1':
-    resolution: {integrity: sha512-HLNZWtSPJm6trrcswjeKY8x5xrD02t+2ip8jEVy3EVTqH7Cb8Jup3A3YWeWwr1BGHCW6BdF+bbj0DPMYixNnrg==}
+  '@stylexswc/nextjs-plugin@0.6.6':
+    resolution: {integrity: sha512-tefwIbuXbdHUf2qghwkuqzPa/q494m8F83GK96L6ktmSzDWlaHfSfuRaZfEm+K7UALZ8tPgNIiJ2xp1pUqbJCA==}
     peerDependencies:
       next: '>=14.0.0'
 
@@ -420,8 +420,8 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
-  '@stylexswc/rs-compiler-darwin-arm64@0.6.6-rc.1':
-    resolution: {integrity: sha512-R8fhoyEzuyS8eIKxv1NkA5F0zrR/8lXxvEhrCUoPH/jLW9/WNFq+F3udScvd3xprmUgoUUO20hPi338ErmWhwg==}
+  '@stylexswc/rs-compiler-darwin-arm64@0.6.6':
+    resolution: {integrity: sha512-Tl4LbArmAAXfXScz9sTfQVVIO34zRRagS+Cfx9dUSYbHJQ64x7rqOLrXyjDN5Y7gjn4KuJpDB+kfLo1J3upH1A==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -432,8 +432,8 @@ packages:
     cpu: [x64]
     os: [darwin]
 
-  '@stylexswc/rs-compiler-darwin-x64@0.6.6-rc.1':
-    resolution: {integrity: sha512-si4kzAzkl0cJDnNLBRfham4A5klVvdcW85xgr3ICj2Su6GWWX1142uRorQJcmN32pR/KGGzO3EGCiWURmnFwcg==}
+  '@stylexswc/rs-compiler-darwin-x64@0.6.6':
+    resolution: {integrity: sha512-1h7rNNKPSlXJkKCC8uh5Fnz4oV5AU1a7bo9zCQicorY498/qQXw3e21LftdvOziP5vLxen/qvKTHp1X/dA+k+A==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -444,8 +444,8 @@ packages:
     cpu: [arm64]
     os: [linux]
 
-  '@stylexswc/rs-compiler-linux-arm64-gnu@0.6.6-rc.1':
-    resolution: {integrity: sha512-zHGu1ucGUwnteHB7wDS7g+hewrARWk37HTK06VV1qnNwOQzw42XPyfCF5IzrBTYAwy5plKMkEfAdzzPoX+KJMQ==}
+  '@stylexswc/rs-compiler-linux-arm64-gnu@0.6.6':
+    resolution: {integrity: sha512-iUCgB35q69A6v8rcR+16zkMSgZaQcfOKFYhTmZi3rKxZ1xv+J7xmtO3+Ys8CV9HXfV+VIbFJz4xHmgt75yRw9A==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -456,8 +456,8 @@ packages:
     cpu: [x64]
     os: [linux]
 
-  '@stylexswc/rs-compiler-linux-x64-gnu@0.6.6-rc.1':
-    resolution: {integrity: sha512-YIm4Z+17sCPPwImRvhU/1TBJ+fdQhMN40wB6ZXZ8rQLbapEy0m+wnpl9rzMEqZC8PSVnRZnHAJZDqLeKlvcN/w==}
+  '@stylexswc/rs-compiler-linux-x64-gnu@0.6.6':
+    resolution: {integrity: sha512-Mn7U31yfOX8sbDWZLkYgDoOBtFQRbCfgBTutdThetEwHu/4sExcegyw+1R3q+ybi7rIi13+5lSD7E2QEY1sl+w==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -468,8 +468,8 @@ packages:
     cpu: [x64]
     os: [linux]
 
-  '@stylexswc/rs-compiler-linux-x64-musl@0.6.6-rc.1':
-    resolution: {integrity: sha512-i7MzyZfMUp3MQSuKhQyHkIuyu9ThpzIHebyQRISO/WGaz4rbS1jWMf5iTOZREVnp/zu3X4M3f1Qr14Z/x9g0Wg==}
+  '@stylexswc/rs-compiler-linux-x64-musl@0.6.6':
+    resolution: {integrity: sha512-juT61kv3dSYzlf54D2DeaScLBN9BmpsDFv/7v9SRq3uzxB0fSEzqAwiVL4pX4Lb4625Glbytd/Qqc+KcZFH5Bg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -480,8 +480,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@stylexswc/rs-compiler-win32-x64-msvc@0.6.6-rc.1':
-    resolution: {integrity: sha512-ZgsGhKGmXwKGqqcsfdeQiGOOOKmEr3nvGQR6aoKCwicIdW56BiVwiwXssXbJtRfbTQnOsOSYiVJB7EyHdXHovA==}
+  '@stylexswc/rs-compiler-win32-x64-msvc@0.6.6':
+    resolution: {integrity: sha512-JMiuvKhbk91rBZBH7MTH+V3MnUonMhqmJuH2wGc4MCO/pL7tdBUfedxBJBLIYL4x+ZFOv79/5ydMP0N5p+ZLDg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -490,12 +490,12 @@ packages:
     resolution: {integrity: sha512-ZETZHS7yfqoUtSTRhZnDgrE5lCVxdF6neR22erwdYNIQM9DEElYVG6ETgx0lyoYW/d/4D+XBj6DN3ex3+geJYA==}
     engines: {node: '>= 18'}
 
-  '@stylexswc/rs-compiler@0.6.6-rc.1':
-    resolution: {integrity: sha512-mB+8CITODDJ/X0FY/3/DpIsuROUnEvr9QqT+v3sTy42IX8pGw/s1hZXWkA0DW8cnjAT6el/1REaUQ9kAHr9TRA==}
+  '@stylexswc/rs-compiler@0.6.6':
+    resolution: {integrity: sha512-52ok4BhIHNR8gcxamAWzbR6OJlIH4H7VDd/5kH5prb+FuCOHFZKKzRccUiQhAjUS2xp1e8D+27zEJC+7tWje3Q==}
     engines: {node: '>= 18'}
 
-  '@stylexswc/webpack-plugin@0.6.6-rc.1':
-    resolution: {integrity: sha512-Uhfb4G9GuwNSpUW3bGagORmPH6SQy5yrT+UZZFnasFg/h/fOUQ5Ym/keyEiiKGqj2ibutjEhTKgnNKxDp8ekrg==}
+  '@stylexswc/webpack-plugin@0.6.6':
+    resolution: {integrity: sha512-2qpML4RZg/XnoqyAP3oPKLDDjjOh4TVoPSlyIbWhRc4g3UEWGnBco3rI8xfBy5JtvSS5UR1cL5F0OWC7eBJUmA==}
 
   '@swc/counter@0.1.3':
     resolution: {integrity: sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==}
@@ -2173,10 +2173,10 @@ snapshots:
       invariant: 2.2.4
       styleq: 0.1.3
 
-  '@stylexswc/nextjs-plugin@0.6.6-rc.1(next@15.1.7(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@stylexswc/nextjs-plugin@0.6.6(next@15.1.7(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
-      '@stylexswc/rs-compiler': 0.6.6-rc.1
-      '@stylexswc/webpack-plugin': 0.6.6-rc.1
+      '@stylexswc/rs-compiler': 0.6.6
+      '@stylexswc/webpack-plugin': 0.6.6
       next: 15.1.7(@babel/core@7.26.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     transitivePeerDependencies:
       - supports-color
@@ -2184,37 +2184,37 @@ snapshots:
   '@stylexswc/rs-compiler-darwin-arm64@0.6.5':
     optional: true
 
-  '@stylexswc/rs-compiler-darwin-arm64@0.6.6-rc.1':
+  '@stylexswc/rs-compiler-darwin-arm64@0.6.6':
     optional: true
 
   '@stylexswc/rs-compiler-darwin-x64@0.6.5':
     optional: true
 
-  '@stylexswc/rs-compiler-darwin-x64@0.6.6-rc.1':
+  '@stylexswc/rs-compiler-darwin-x64@0.6.6':
     optional: true
 
   '@stylexswc/rs-compiler-linux-arm64-gnu@0.6.5':
     optional: true
 
-  '@stylexswc/rs-compiler-linux-arm64-gnu@0.6.6-rc.1':
+  '@stylexswc/rs-compiler-linux-arm64-gnu@0.6.6':
     optional: true
 
   '@stylexswc/rs-compiler-linux-x64-gnu@0.6.5':
     optional: true
 
-  '@stylexswc/rs-compiler-linux-x64-gnu@0.6.6-rc.1':
+  '@stylexswc/rs-compiler-linux-x64-gnu@0.6.6':
     optional: true
 
   '@stylexswc/rs-compiler-linux-x64-musl@0.6.5':
     optional: true
 
-  '@stylexswc/rs-compiler-linux-x64-musl@0.6.6-rc.1':
+  '@stylexswc/rs-compiler-linux-x64-musl@0.6.6':
     optional: true
 
   '@stylexswc/rs-compiler-win32-x64-msvc@0.6.5':
     optional: true
 
-  '@stylexswc/rs-compiler-win32-x64-msvc@0.6.6-rc.1':
+  '@stylexswc/rs-compiler-win32-x64-msvc@0.6.6':
     optional: true
 
   '@stylexswc/rs-compiler@0.6.5':
@@ -2226,19 +2226,19 @@ snapshots:
       '@stylexswc/rs-compiler-linux-x64-musl': 0.6.5
       '@stylexswc/rs-compiler-win32-x64-msvc': 0.6.5
 
-  '@stylexswc/rs-compiler@0.6.6-rc.1':
+  '@stylexswc/rs-compiler@0.6.6':
     optionalDependencies:
-      '@stylexswc/rs-compiler-darwin-arm64': 0.6.6-rc.1
-      '@stylexswc/rs-compiler-darwin-x64': 0.6.6-rc.1
-      '@stylexswc/rs-compiler-linux-arm64-gnu': 0.6.6-rc.1
-      '@stylexswc/rs-compiler-linux-x64-gnu': 0.6.6-rc.1
-      '@stylexswc/rs-compiler-linux-x64-musl': 0.6.6-rc.1
-      '@stylexswc/rs-compiler-win32-x64-msvc': 0.6.6-rc.1
+      '@stylexswc/rs-compiler-darwin-arm64': 0.6.6
+      '@stylexswc/rs-compiler-darwin-x64': 0.6.6
+      '@stylexswc/rs-compiler-linux-arm64-gnu': 0.6.6
+      '@stylexswc/rs-compiler-linux-x64-gnu': 0.6.6
+      '@stylexswc/rs-compiler-linux-x64-musl': 0.6.6
+      '@stylexswc/rs-compiler-win32-x64-msvc': 0.6.6
 
-  '@stylexswc/webpack-plugin@0.6.6-rc.1':
+  '@stylexswc/webpack-plugin@0.6.6':
     dependencies:
       '@stylexjs/babel-plugin': 0.10.1
-      '@stylexswc/rs-compiler': 0.6.6-rc.1
+      '@stylexswc/rs-compiler': 0.6.6
       loader-utils: 3.3.1
     transitivePeerDependencies:
       - supports-color
@@ -2741,8 +2741,8 @@ snapshots:
       '@typescript-eslint/parser': 8.24.0(eslint@9.20.1)(typescript@5.7.3)
       eslint: 9.20.1
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1))(eslint@9.20.1)
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1))(eslint@9.20.1))(eslint@9.20.1)
+      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0)(eslint@9.20.1)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-typescript@3.7.0)(eslint@9.20.1)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.20.1)
       eslint-plugin-react: 7.37.4(eslint@9.20.1)
       eslint-plugin-react-hooks: 5.1.0(eslint@9.20.1)
@@ -2761,7 +2761,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1))(eslint@9.20.1):
+  eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0)(eslint@9.20.1):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.0
@@ -2773,22 +2773,22 @@ snapshots:
       is-glob: 4.0.3
       stable-hash: 0.0.4
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1))(eslint@9.20.1))(eslint@9.20.1)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-typescript@3.7.0)(eslint@9.20.1)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1))(eslint@9.20.1))(eslint@9.20.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0)(eslint@9.20.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 8.24.0(eslint@9.20.1)(typescript@5.7.3)
       eslint: 9.20.1
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1))(eslint@9.20.1)
+      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0)(eslint@9.20.1)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1))(eslint@9.20.1))(eslint@9.20.1):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-typescript@3.7.0)(eslint@9.20.1):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -2799,7 +2799,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.20.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint@9.20.1))(eslint@9.20.1))(eslint@9.20.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.24.0(eslint@9.20.1)(typescript@5.7.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0)(eslint@9.20.1)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
